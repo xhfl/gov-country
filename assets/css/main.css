@@ -3436,6 +3436,7 @@ input, select, textarea {
 				}
 
 				#banner .image {
+					height: 100%;
 					-moz-flex-grow: 0;
 					-webkit-flex-grow: 0;
 					-ms-flex-grow: 0;
@@ -3448,6 +3449,8 @@ input, select, textarea {
 					/*max-height: 50vh;*/
 					min-height: 18em;
 					width: 100%;
+					object-fit: cover;
+					object-position: center;
 				}
 
 		}
