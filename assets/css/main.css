@@ -17,7 +17,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2782,8 +2783,8 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0 0em 2em -6em;
-		width: calc(133.3333333333% + 6em);
+		margin: 0 0 2em -6em;
+		width: 100%;
 	}
 
 		.posts article {
@@ -2797,14 +2798,14 @@ input, select, textarea {
 			flex-shrink: 1;
 			margin: 0 0 6em 6em;
 			position: relative;
-			width: calc(33.3333333333% - 6em);
+			width: 33.3333333333%;
 		}
 
 			.posts article:before {
 				background: rgba(210, 215, 217, 0.75);
 				content: '';
 				display: block;
-				height: calc(100% + 6em);
+				height: calc(100%);
 				left: -1em;
 				position: absolute;
 				top: 0;
@@ -2819,7 +2820,7 @@ input, select, textarea {
 				height: 1px;
 				position: absolute;
 				right: 0;
-				width: calc(133.3333333333% + 6em);
+				width: 100%;
 			}
 
 			.posts article > :last-child {
