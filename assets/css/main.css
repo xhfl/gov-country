@@ -3408,6 +3408,7 @@ input, select, textarea {
 				-ms-object-position: center;
 				object-position: center;
 				width: 100%;
+				max-height: 60vh;
 			}
 
 		@media screen and (orientation: portrait) {
